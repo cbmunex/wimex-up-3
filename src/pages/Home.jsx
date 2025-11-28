@@ -18,14 +18,13 @@ export default function Home() {
               INGLÊS PARA SITUAÇÕES REAIS
             </p>
             <h1 className="text-4xl md:text-5xl font-bold mb-4 leading-tight">
-              Domine o inglês que você
+              Inglês prático, focado no que você
               <span className="text-emerald-400"> realmente usa</span>.
             </h1>
             <p className="text-slate-300 mb-6 text-sm md:text-base">
-              Check-in em aeroportos, imigração, leitura de manuais, telas de sistemas,
-              reuniões de trabalho, filmes e vídeos em inglês. O WiMEX-UP é um curso
-              100% online focado em situações reais, com um professor-avatar que prende
-              sua atenção.
+              WiMEX-UP é um curso 100% online voltado para situações do dia a dia:
+              check-in em aeroportos, entrevistas, reuniões, imigração, atendimento
+              ao cliente, leitura de manuais, filmes, séries e muito mais.
             </p>
             <div className="flex flex-wrap gap-3 mb-6">
               <button
@@ -42,7 +41,8 @@ export default function Home() {
               </button>
             </div>
             <p className="text-xs text-slate-400">
-              Acesso online, no seu ritmo, com módulos pensados para o seu dia a dia.
+              Aulas curtas, diretas ao ponto, com um professor-avatar de IA disponível
+              24 horas por dia para praticar com você.
             </p>
           </div>
 
@@ -54,55 +54,96 @@ export default function Home() {
             <ul className="space-y-3 text-sm text-slate-200">
               <li>
                 <span className="text-emerald-400 mr-1">✓</span>
-                Avatar de IA disponível 24h para treinar conversação e pronúncia.
+                Avatar de IA disponível 24h para praticar conversação e pronúncia.
               </li>
               <li>
                 <span className="text-emerald-400 mr-1">✓</span>
-                Foco total em situações reais: viagens, trabalho, reuniões e lazer.
+                Foco total em situações reais de viagem, trabalho e vida cotidiana.
               </li>
               <li>
                 <span className="text-emerald-400 mr-1">✓</span>
-                Plataforma simples, pensada para quem não tem tempo a perder.
+                Acesso vitalício ao conteúdo — estude no seu tempo.
               </li>
               <li>
                 <span className="text-emerald-400 mr-1">✓</span>
-                Conteúdos atualizados e acesso de qualquer dispositivo.
+                Conteúdo atualizado, suporte ao aluno e certificado digital.
               </li>
             </ul>
             <div className="mt-4 text-xs text-slate-400">
-              Assim que a matrícula é confirmada, você recebe login e senha para acessar
-              todos os módulos disponíveis.
+              Assim que sua matrícula é confirmada, você recebe login e senha para acessar
+              todos os módulos da plataforma.
             </div>
           </div>
         </section>
 
-        {/* SEÇÃO COMO FUNCIONA */}
-        <section className="bg-slate-900/40 border-t border-slate-800">
+        {/* SEÇÃO MÉTODO */}
+        <section
+          id="method"
+          className="bg-slate-900/40 border-t border-slate-800"
+        >
           <div className="max-w-6xl mx-auto px-4 py-12">
-            <h2 className="text-2xl font-semibold mb-6">
-              Como funciona o WiMEX-UP?
-            </h2>
+            <h2 className="text-2xl font-semibold mb-3">Como funciona o método WiMEX-UP?</h2>
+            <p className="text-sm text-slate-300 mb-8">
+              Em vez de focar apenas em gramática e regras, o WiMEX-UP foi pensado para
+              quem precisa usar o inglês em situações específicas. Você aprende com
+              diálogos, simulações, exercícios práticos e um avatar de IA que conversa
+              com você como um professor particular.
+            </p>
 
-            <div className="grid md:grid-cols-3 gap-8 text-sm">
-              <div>
-                <h3 className="text-lg font-semibold mb-2">1. Matricule-se</h3>
+            <div className="grid md:grid-cols-3 gap-6 text-sm">
+              <div className="bg-slate-900/70 border border-slate-800 rounded-2xl p-4">
+                <h3 className="text-lg font-semibold mb-2">Aulas curtas e objetivas</h3>
                 <p className="text-slate-300">
-                  Faça seu cadastro em poucos minutos, escolha a forma de pagamento
-                  e ative o acesso à plataforma de estudos.
+                  Cada módulo é dividido em aulas rápidas, para você estudar mesmo
+                  com pouco tempo disponível e sem ficar sobrecarregado.
                 </p>
               </div>
-              <div>
-                <h3 className="text-lg font-semibold mb-2">2. Crie seu avatar</h3>
+              <div className="bg-slate-900/70 border border-slate-800 rounded-2xl p-4">
+                <h3 className="text-lg font-semibold mb-2">Treino com avatar de IA</h3>
                 <p className="text-slate-300">
-                  Configure seu professor virtual e personalize sua experiência para
-                  acompanhar seu estilo de aprendizado.
+                  Pratique diálogos reais com o avatar-professor, que responde em inglês,
+                  corrige sua pronúncia e adapta o nível à sua evolução.
                 </p>
               </div>
-              <div>
-                <h3 className="text-lg font-semibold mb-2">3. Estude no seu tempo</h3>
+              <div className="bg-slate-900/70 border border-slate-800 rounded-2xl p-4">
+                <h3 className="text-lg font-semibold mb-2">Revisão ilimitada</h3>
                 <p className="text-slate-300">
-                  Acesse os módulos quando quiser, do computador ou celular, com aulas
-                  curtas, práticas e diretas ao ponto.
+                  Assista novamente às aulas sempre que quiser, revisando antes de
+                  viagens, entrevistas, reuniões ou apresentações importantes.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* SEÇÃO PARA QUEM É */}
+        <section
+          id="who"
+          className="border-t border-slate-800 bg-slate-950"
+        >
+          <div className="max-w-6xl mx-auto px-4 py-12">
+            <h2 className="text-2xl font-semibold mb-6">Para quem é o WiMEX-UP?</h2>
+
+            <div className="grid md:grid-cols-3 gap-6 text-sm">
+              <div className="bg-slate-900/70 border border-slate-800 rounded-2xl p-4">
+                <p className="font-semibold mb-2">Quem nunca conseguiu “destravar” o inglês</p>
+                <p className="text-slate-300">
+                  Pessoas que já tentaram cursos tradicionais, mas não sentiram evolução
+                  ou não conseguiram levar o curso até o fim.
+                </p>
+              </div>
+              <div className="bg-slate-900/70 border border-slate-800 rounded-2xl p-4">
+                <p className="font-semibold mb-2">Profissionais que precisam do inglês</p>
+                <p className="text-slate-300">
+                  Para entrevistas, reuniões, ligações, atendimento a clientes ou contato
+                  com equipes internacionais.
+                </p>
+              </div>
+              <div className="bg-slate-900/70 border border-slate-800 rounded-2xl p-4">
+                <p className="font-semibold mb-2">Quem vai viajar ou morar fora</p>
+                <p className="text-slate-300">
+                  Para quem precisa se virar em aeroportos, imigração, hotéis, restaurantes,
+                  transporte e situações do dia a dia em outro país.
                 </p>
               </div>
             </div>
@@ -110,16 +151,19 @@ export default function Home() {
         </section>
 
         {/* SEÇÃO PLANOS / INVESTIMENTO */}
-        <section className="border-t border-slate-800 bg-slate-950">
+        <section
+          id="plans"
+          className="border-t border-slate-800 bg-slate-950"
+        >
           <div className="max-w-6xl mx-auto px-4 py-12 grid md:grid-cols-2 gap-8 items-center">
             <div>
               <h2 className="text-2xl font-semibold mb-3">
                 Um único investimento, acesso vitalício
               </h2>
               <p className="text-sm text-slate-300 mb-4">
-                Você paga uma vez e pode revisar as aulas sempre que quiser. Sem mensalidade,
-                sem pegadinha. Ideal para quem quer aprender com calma e revisar antes de
-                viagens, entrevistas e momentos importantes.
+                Você paga uma vez e pode revisar as aulas sempre que quiser. Sem
+                mensalidades, sem contratos complicados. Ideal para quem quer aprender
+                com calma e revisar o conteúdo antes de momentos importantes.
               </p>
               <ul className="text-sm text-slate-300 space-y-2 mb-4">
                 <li>• 30 módulos práticos divididos por níveis</li>
@@ -127,6 +171,10 @@ export default function Home() {
                 <li>• Suporte ao aluno por e-mail</li>
                 <li>• Certificado digital de conclusão</li>
               </ul>
+              <p className="text-xs text-slate-500">
+                *Valores e condições demonstrativos. A integração com pagamento real
+                será configurada em uma próxima etapa do projeto.
+              </p>
             </div>
 
             <div className="bg-slate-900/80 border border-emerald-500/60 rounded-3xl p-6 text-center">
@@ -136,10 +184,6 @@ export default function Home() {
               <p className="text-4xl font-bold mb-1">R$ 197</p>
               <p className="text-xs text-slate-400 mb-4">
                 ou 12x de R$ 19,90 no cartão*
-              </p>
-              <p className="text-xs text-slate-400 mb-4">
-                *Valores e formas de pagamento demonstrativos. Integração real será ativada
-                em versões futuras da plataforma.
               </p>
               <button
                 onClick={() => navigate('/cadastro')}
@@ -162,45 +206,54 @@ export default function Home() {
           </div>
         </section>
 
-        {/* SEÇÃO NÍVEIS / MÓDULOS */}
-        <section className="bg-slate-900/40 border-t border-slate-800">
+        {/* SEÇÃO DÚVIDAS / FAQ */}
+        <section
+          id="faq"
+          className="border-t border-slate-800 bg-slate-950"
+        >
           <div className="max-w-6xl mx-auto px-4 py-12">
-            <h2 className="text-2xl font-semibold mb-6">
-              30 módulos em 3 níveis
-            </h2>
+            <h2 className="text-2xl font-semibold mb-6">Dúvidas frequentes</h2>
 
-            <div className="grid md:grid-cols-3 gap-6 text-sm">
+            <div className="space-y-4 text-sm">
               <div className="bg-slate-900/70 border border-slate-800 rounded-2xl p-4">
-                <p className="text-xs text-emerald-400 font-semibold mb-1">BÁSICO</p>
-                <p className="font-semibold mb-2">Comece do zero, sem medo</p>
-                <ul className="text-slate-300 space-y-1">
-                  <li>• Saudações e apresentações</li>
-                  <li>• Rotina diária e horários</li>
-                  <li>• Compras simples e pedidos básicos</li>
-                  <li>• Primeiras viagens internacionais</li>
-                </ul>
+                <p className="font-semibold mb-1">
+                  O curso é totalmente online?
+                </p>
+                <p className="text-slate-300">
+                  Sim. Você assiste às aulas, pratica com o avatar de IA e acompanha
+                  seu progresso 100% online, do computador, tablet ou celular.
+                </p>
               </div>
 
               <div className="bg-slate-900/70 border border-slate-800 rounded-2xl p-4">
-                <p className="text-xs text-emerald-400 font-semibold mb-1">INTERMEDIÁRIO</p>
-                <p className="font-semibold mb-2">Ganhe confiança no dia a dia</p>
-                <ul className="text-slate-300 space-y-1">
-                  <li>• Hotéis e reservas</li>
-                  <li>• Restaurantes e alimentação</li>
-                  <li>• Transporte, trajetos e dúvidas de rota</li>
-                  <li>• Conversas no ambiente de trabalho</li>
-                </ul>
+                <p className="font-semibold mb-1">
+                  Por quanto tempo terei acesso ao conteúdo?
+                </p>
+                <p className="text-slate-300">
+                  O acesso é vitalício. Isso significa que você pode retornar às aulas
+                  sempre que precisar revisar o conteúdo.
+                </p>
               </div>
 
               <div className="bg-slate-900/70 border border-slate-800 rounded-2xl p-4">
-                <p className="text-xs text-emerald-400 font-semibold mb-1">AVANÇADO</p>
-                <p className="font-semibold mb-2">Para ir além do básico</p>
-                <ul className="text-slate-300 space-y-1">
-                  <li>• Apresentações profissionais</li>
-                  <li>• Reuniões e negociações</li>
-                  <li>• Entrevistas e networking</li>
-                  <li>• Cultura, filmes e debates</li>
-                </ul>
+                <p className="font-semibold mb-1">
+                  Preciso saber inglês básico para começar?
+                </p>
+                <p className="text-slate-300">
+                  Não. O curso começa do zero, com módulos introdutórios para quem
+                  nunca estudou ou está muito tempo sem praticar.
+                </p>
+              </div>
+
+              <div className="bg-slate-900/70 border border-slate-800 rounded-2xl p-4">
+                <p className="font-semibold mb-1">
+                  Como funciona a parte de conversação com IA?
+                </p>
+                <p className="text-slate-300">
+                  Você interage com um professor-avatar, que responde em inglês, sugere
+                  frases, corrige pronúncia e se adapta ao seu ritmo. A implementação
+                  completa dessa função será ativada em etapas futuras do projeto.
+                </p>
               </div>
             </div>
           </div>
@@ -217,8 +270,8 @@ export default function Home() {
                 Fale com um consultor
               </h2>
               <p className="text-sm text-slate-300 mb-4">
-                Tem dúvida se o WiMEX-UP é para você? Envie seus dados e nossa equipe
-                entra em contato para te orientar sobre o melhor caminho.
+                Ainda está em dúvida se o WiMEX-UP é para você? Envie seus dados e nossa
+                equipe entra em contato para te orientar sobre o melhor caminho.
               </p>
               <p className="text-xs text-slate-500">
                 Resposta em até 24h úteis, diretamente no seu WhatsApp ou e-mail.
@@ -226,7 +279,7 @@ export default function Home() {
             </div>
 
             <div className="bg-slate-900/70 border border-slate-800 rounded-2xl p-6">
-              {/* Formulário apenas visual por enquanto */}
+              {/* Formulário demonstrativo */}
               <div className="space-y-4 text-sm">
                 <div>
                   <label className="block text-xs text-slate-400 mb-1">
@@ -266,7 +319,7 @@ export default function Home() {
                 </button>
                 <p className="text-[11px] text-slate-500">
                   Este formulário é demonstrativo nesta versão. Em breve, os dados serão
-                  enviados diretamente para nossa equipe de atendimento.
+                  integrados com um sistema de atendimento real.
                 </p>
               </div>
             </div>
